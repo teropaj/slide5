@@ -28,31 +28,32 @@ html,body {width: 100%;
 
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+  /*  border: 1px solid #ccc;*/
     width: 100%;
   /*  width: 180px;*/
-
+  margin-bottom: 4rem
 }
 
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 1%x;
-  background-color: #2196F3;
+  margin-left: 16rem;
+  /*background-color: #2196F3;*/
   padding: 1%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1%;
 
 
 }
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+/*  background-color: rgba(255, 255, 255, 0.8);*/
   text-align: center;
   padding: 0px 0;
-  width: 96%;
+  width: 50%;
   margin-right: 1%;
 }
 .little-text {
-  background-color: green;
+  /*background-color: green;*/
   text-align: center;
 }
 h1 {text-align: center;
@@ -67,9 +68,11 @@ div.desc {
     /*text-align: center;*/
     font-size: 10px;
 }
-img {width: 70  %;margin-top: 10px;}
+img {width: 70  %;margin-top: 1%;}
 h3 {margin: 0px;}
 .saladsName {text-align: center;}
 
 div.p {text-align: center;}
 img.star {width:5%;}
+.hed{margin-left: 23%}
+.foodType{height: 15%;}
